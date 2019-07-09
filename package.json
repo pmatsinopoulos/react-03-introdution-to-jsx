@@ -1,0 +1,20 @@
+{
+  "name": "04-introduction-to-jsx",
+  "version": "1.0.0",
+  "description": "Introduction to JSX",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/babel js/*.jsx -o dist/js/main.js -w "
+  },
+  "author": "Panagiotis Matsinopoulos",
+  "license": "ISC",
+  "devDependencies": {
+    "node-static": "^0.7.11",
+    "babel-cli": "^6.26.0",
+    "babel-preset-react": "^6.24.1"
+  },
+  "babel": {
+    "presets": ["react"]
+  }
+}
